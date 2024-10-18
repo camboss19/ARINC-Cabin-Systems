@@ -1,6 +1,6 @@
-import RPi.GPIO as GPIO
+#import RPi.GPIO as GPIO
 import paho.mqtt.client as mqttclient
-import gpioControl
+#import gpioControl
 
 # IP and port of broker
 broker_address="192.168.10.10"
@@ -26,7 +26,7 @@ def on_message(client,userdata,message):
 	
 	## Code here to do things based on message data
 	if(str(message.topic) == topic1):
-		gpioControl.main()
+		pass
  
 
 ## Password controls when needed
