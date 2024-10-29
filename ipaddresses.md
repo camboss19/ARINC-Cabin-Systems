@@ -1,4 +1,4 @@
-# ARINC-Cabin-Systems
+# IP addresses
 192.168.10.1 - Router
 192.168.10.10 - Broker
 192.168.10.11 - Overhead Unit
